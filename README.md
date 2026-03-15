@@ -1,7 +1,3 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
-
 # Kindred — The Living Friendship Book
 
 A children's app where kids create AI-generated avatars through a voice interview, connect with friends via invite codes, and record shared story memories with AI-generated images and audio narration. Stories require parental approval (a math gate) before being shared.
@@ -63,8 +59,6 @@ npm install
 Create a `.env.local` file in the project root with the following variables:
 
 ```env
-VITE_GEMINI_API_KEY=your_gemini_api_key_here
-
 VITE_FIREBASE_API_KEY=your_firebase_api_key
 VITE_FIREBASE_AUTH_DOMAIN=your_project_id.firebaseapp.com
 VITE_FIREBASE_PROJECT_ID=your_project_id
@@ -75,7 +69,15 @@ VITE_FIREBASE_APP_ID=your_app_id
 
 All values come from the Firebase web app config (step 3) and AI Studio (step 4).
 
-## 6. Run locally
+## 6. Create `.secret.local`
+
+Create a `.secret.local`file in the functions folder with the following variables:
+
+```env
+GEMINI_API_KEY=your_gemini_api_key
+```
+
+## 7. Run locally
 
 ```bash
 npm run dev
@@ -84,6 +86,16 @@ npm run dev
 The app starts at **http://localhost:3000**.
 
 > **Note:** The voice interview uses the browser microphone. Allow microphone access when prompted.
+
+### Firebase Emulators (optional)
+
+If you prefer to develop without hitting production Firebase, start the local emulators:
+
+```bash
+npm run emulators
+```
+
+This requires the [Firebase CLI](https://firebase.google.com/docs/cli) to be installed (`npm install -g firebase-tools`) and a `firebase.json` config in the project root pointing at your project.
 
 ---
 
@@ -110,15 +122,3 @@ The app starts at **http://localhost:3000**.
 6. **Dashboard** — share a 6-character invite code with a friend; once accepted, a connection is created
 7. **Create a story** — pick a friend, generate a scene image + audio narration
 8. **Parental approval** — a math problem gate at `/approve/:id`; once solved, the story is visible to both children
-
----
-
-## Firebase Emulators (optional)
-
-If you prefer to develop without hitting production Firebase, start the local emulators:
-
-```bash
-npm run emulators
-```
-
-This requires the [Firebase CLI](https://firebase.google.com/docs/cli) to be installed (`npm install -g firebase-tools`) and a `firebase.json` config in the project root pointing at your project.
