@@ -2,6 +2,8 @@
 
 A children's app where kids create AI-generated avatars through a voice interview, connect with friends via invite codes, and record shared story memories with AI-generated images and audio narration. Stories require parental approval (a math gate) before being shared.
 
+Test it live here: https://kindred-c7c67.web.app/
+
 ## Tech Stack
 
 - **Frontend:** React 19 + TypeScript, Vite 6, Tailwind CSS v4
@@ -122,3 +124,5 @@ This requires the [Firebase CLI](https://firebase.google.com/docs/cli) to be ins
 6. **Dashboard** — share a 6-character invite code with a friend; once accepted, a connection is created
 7. **Create a story** — pick a friend, generate a scene image + audio narration
 8. **Parental approval** — a math problem gate at `/approve/:id`; once solved, the story is visible to both children
+
+Find the architecture diagram here: https://github.com/tsyg-ai/kindred/blob/main/architecture.md
