@@ -1,0 +1,278 @@
+{
+	"common": {
+		"loading": "Laden...",
+		"back": "Terug",
+		"cancel": "Annuleren",
+		"close": "Sluiten",
+		"creating_magic": "Magie aan het maken...",
+		"try_again": "Opnieuw proberen",
+		"looks_great": "Geweldig! Laten we gaan",
+		"saving": "Opslaan..."
+	},
+	"welcome": {
+		"title": "Project Kindred",
+		"subtitle": "Het Levende Vriendschapsboek",
+		"sign_in": "Inloggen met Google",
+		"errors": {
+			"load_profile": "Profiel laden mislukt.",
+			"sign_in": "Inloggen mislukt. Probeer het opnieuw."
+		}
+	},
+	"onboarding": {
+		"title": "Welkom bij Kindred",
+		"subtitle": "Een magisch vriendschapsboek voor je kind — zo werkt het",
+		"feature1": {
+			"title": "De unieke avatar van je kind",
+			"desc": "Via een leuk AI-interview beantwoordt je kind vragen over zichzelf en krijgt een prachtige geïllustreerde avatar die uniek voor hen is."
+		},
+		"feature2": {
+			"title": "Veilig verbinden met vrienden",
+			"desc": "Deel een eenvoudige code van 6 tekens met een ander gezin. Als zij de code invoeren, zijn de kinderen verbonden in hun gedeelde vriendschapsboek — altijd onder jouw toezicht."
+		},
+		"feature3": {
+			"title": "Magische verhaalherinneringen",
+			"desc": "Kinderen beschrijven een leuk moment dat ze samen hebben beleefd, en Kindred maakt er een geïllustreerd verhaal van met AI-kunstwerken en vertelling — een herinnering om te koesteren."
+		},
+		"feature4": {
+			"title": "Jij blijft in controle",
+			"desc": "Elk verhaal dat je kind maakt, heeft jouw goedkeuring nodig voordat vrienden het kunnen zien. Een eenvoudige rekensom zorgt ervoor dat alleen ouders inhoud kunnen goedkeuren."
+		},
+		"privacy_note": "Er worden geen persoonlijke gegevens gedeeld tussen gezinnen, behalve wat je kind zelf kiest te delen.",
+		"cta": "Maak het profiel van je kind"
+	},
+	"selectProfile": {
+		"title": "Wie speelt er?",
+		"subtitle": "Kies je profiel om verder te gaan",
+		"new_profile": "Nieuw Profiel",
+		"world_style": "{{worldStyle}} Stijl",
+		"delete_profile_title": "{{name}} verwijderen?",
+		"delete_profile_confirm": "Dit verwijdert permanent dit profiel en al zijn vrienden en verhalen. Dit kan niet ongedaan worden gemaakt.",
+		"delete_profile_button": "Ja, verwijderen",
+		"errors": {
+			"load_profiles": "Profielen laden mislukt.",
+			"delete_profile": "Profiel verwijderen mislukt."
+		}
+	},
+	"parentalSetup": {
+		"title": "Ouderportaal",
+		"description": "Welkom bij Project Kindred. Deze app gebruikt AI om een levend vriendschapsboek voor je kind te maken. Alle gegenereerde inhoud is ontworpen om kindveilig te zijn.",
+		"instruction": "Om te beginnen, geef de naam en leeftijd van je kind op.",
+		"interview_info": "Je kind wordt geïnterviewd door een vriendelijke AI-gids via voice chat — de antwoorden bepalen een unieke avatar en personaliseren de beleving. Gebruik het paneel rechts om te kiezen welke vragen worden gesteld, of voeg je eigen onderwerpen toe.",
+		"child_name": "Naam van het kind",
+		"name_placeholder": "bijv. Leo",
+		"child_age": "Leeftijd van het kind",
+		"age_placeholder": "bijv. 7",
+		"language": "Taal",
+		"continue": "Doorgaan naar stijlkeuze",
+		"customize_questions": "Interviewvragen aanpassen",
+		"customize_questions_desc": "Standaard zijn alle vragen inbegrepen. Schakel vragen uit om ze over te slaan, of voeg je eigen onderwerpen toe.",
+		"add_custom_question": "Voeg een eigen onderwerp toe",
+		"add_custom_question_desc": "Typ een onderwerp (bijv. \"schoenmaat\", \"lievelingskleur\") en wij maken er een kindvriendelijke vraag van. Eigen onderwerpen worden ook gedeeld met de vrienden van je kind — zodat iedereen ze beantwoordt.",
+		"custom_question_placeholder": "bijv. lievelingssport",
+		"add": "Toevoegen",
+		"errors": {
+			"fill_required": "Vul zowel de naam als de leeftijd in.",
+			"min_one_question": "Selecteer minimaal één vraag.",
+			"age_required_for_custom": "Voer eerst de leeftijd van het kind in.",
+			"generate_question_failed": "Kon geen vraag genereren. Probeer het opnieuw."
+		}
+	},
+	"chooseStyle": {
+		"title": "Kies je wereld",
+		"subtitle": "Hoi {{name}}! Kies hoe je magische wereld eruit moet zien!",
+		"start_interview": "Interview starten",
+		"styles": {
+			"Watercolor": "Aquarel",
+			"Paper-craft": "Papierkunst",
+			"3D Animation": "3D-animatie",
+			"Toy": "3D-speelgoed",
+			"Chalk": "Krijt",
+			"Clay": "Klei",
+			"8-Bit": "8-Bit",
+			"Crayon": "Kleurpotlood",
+			"Cartoon": "Cartoon",
+			"Stitched": "Geborduurd",
+			"Neon": "Neon",
+			"Default": "Standaard"
+		}
+	},
+	"childInterview": {
+		"title": "Identiteitsaanmaak",
+		"subtitle": "Laten we je geïllustreerde zelf maken!",
+		"question_counter": "Vraag {{current}} van {{total}}",
+		"use_voice": "Stem gebruiken",
+		"answer_placeholder": "Typ je antwoord hier...",
+		"generate_avatar": "Avatar genereren",
+		"next": "Volgende",
+		"meet_avatar": "Maak kennis met je avatar!",
+		"errors": {
+			"answer_required": "Beantwoord de vraag voordat je verder gaat!",
+			"generate_failed": "Avatar genereren mislukt. Probeer het opnieuw.",
+			"save_failed": "Profiel opslaan mislukt."
+		}
+	},
+	"voiceInterview": {
+		"title": "Steminterview",
+		"subtitle": "Praat met onze magische assistent om je avatar te maken!",
+		"connecting": "Verbinden...",
+		"waking_up": "De magische assistent wakker maken!",
+		"listening": "Luisteren...",
+		"guide": "Beantwoord de vragen hardop. De assistent begeleidt je!",
+		"stop_interview": "Interview stoppen",
+		"recorded_answers": "Opgenomen antwoorden:",
+		"ready_title": "Klaar om te beginnen?",
+		"ready_subtitle": "Zorg dat je microfoon aan staat en je op een rustige plek bent.",
+		"start_interview": "Steminterview starten",
+		"type_instead": "Of typ je antwoorden in",
+		"meet_avatar": "Maak kennis met je avatar!",
+		"generating_subtitle": "Je avatar wordt gegenereerd op basis van je antwoorden!",
+		"errors": {
+			"microphone": "Steminterview starten mislukt. Controleer de microfoonrechten.",
+			"connection": "Verbindingsfout. Probeer het opnieuw.",
+			"save_failed": "Profiel opslaan mislukt."
+		}
+	},
+	"dashboard": {
+		"greeting": "Hoi, {{name}}!",
+		"world": "{{style}} Wereld",
+		"switch_profile": "Profiel wisselen",
+		"edit_profile": "Profiel bewerken",
+		"log_out": "Uitloggen",
+		"errors": {
+			"logout_failed": "Uitloggen mislukt. Probeer het opnieuw."
+		}
+	},
+	"storyEngine": {
+		"title": "De Verhaalmotor",
+		"choose_scene_style": "Kies scènestijl",
+		"choose_scene_style_subtitle": "Kies de kunststijl voor je verhaalscène",
+		"next_write_story": "Volgende: Schrijf je verhaal",
+		"subtitle": "Vertel me over een leuke tijd met een vriend!",
+		"friend_details": "Details van {{name}}",
+		"interview_answers": "Interviewantwoorden:",
+		"who_is_friend": "Wie is je vriend?",
+		"friend_placeholder": "bijv. Mia",
+		"what_happened": "Wat is er gebeurd?",
+		"record_voice": "Stem opnemen",
+		"stop_recording": "Opname stoppen",
+		"story_placeholder": "We hebben een reuzenfort van kussens gebouwd in de woonkamer...",
+		"type_instead": "Typ in plaats daarvan",
+		"use_voice": "Gebruik stem",
+		"tap_mic": "Tik op de microfoon en vertel je verhaal!",
+		"listening": "Luisteren...",
+		"create_magic": "Magie maken",
+		"steps": {
+			"imagining_friend": "Je vriend wordt verzonnen...",
+			"drawing_scene": "De scène wordt getekend...",
+			"recording_narrator": "De verteller wordt opgenomen...",
+			"saving": "Opslaan in je boek..."
+		},
+		"errors": {
+			"fill_required": "Vertel me de naam van je vriend en het verhaal!",
+			"generic": "Er is iets misgegaan. Laten we het opnieuw proberen!",
+			"load_failed": "Gegevens konden niet worden geladen. Ga terug en probeer het opnieuw."
+		}
+	},
+	"mathGate": {
+		"title": "Oudercontrole",
+		"review_story": "Bekijk het verhaal",
+		"generated_audio": "Gegenereerde audio",
+		"audio_failed": "Audiogeneratie mislukt of overgeslagen.",
+		"reject_delete": "Weigeren & verwijderen",
+		"verify_adult": "Verifieer dat je een volwassene bent",
+		"solve_math": "Los de rekensom op om dit item goed te keuren.",
+		"answer_placeholder": "Antwoord",
+		"approve": "Goedkeuren",
+		"errors": {
+			"incorrect": "Onjuist antwoord. Probeer het opnieuw.",
+			"load_failed": "Verhaal voor beoordeling kon niet worden geladen.",
+			"approve_failed": "Goedkeuren mislukt. Probeer het opnieuw.",
+			"delete_failed": "Verwijderen mislukt. Probeer het opnieuw."
+		}
+	},
+	"friendDetails": {
+		"errors": {
+			"load_failed": "Vrienddetails konden niet worden geladen.",
+			"audio_failed": "Audio kon niet worden gegenereerd. Probeer het opnieuw.",
+			"remove_failed": "Vriend kon niet worden verwijderd. Probeer het opnieuw."
+		},
+		"back": "Terug naar dashboard",
+		"remove_friend": "Vriend verwijderen",
+		"remove_friend_title": "{{name}} verwijderen?",
+		"remove_friend_confirm": "Dit verwijdert permanent je verbinding en alle gedeelde verhalen. Dit kan niet ongedaan worden gemaakt.",
+		"remove_friend_button": "Ja, verwijderen",
+		"interview_answers": "Interviewantwoorden",
+		"no_answers": "Geen interviewantwoorden beschikbaar.",
+		"meet_friend": "Maak kennis met {{name}}!",
+		"intro_subtitle": "Luister naar een leuke introductie over {{name}} op basis van zijn/haar profiel.",
+		"stories_with": "Verhalen met {{name}}",
+		"no_stories": "Nog geen verhalen.",
+		"create_story": "Maak er nu een!",
+		"approved": "Goedgekeurd",
+		"needs_review": "Moet worden beoordeeld",
+		"review_with_parent": "Beoordelen met ouder",
+		"play_intro": "Introductie afspelen",
+		"play_custom_answers": "Speel hun antwoorden op jouw vragen af",
+		"answer_their_questions": "Beantwoord de vragen van {{name}}",
+		"redo_answers": "Antwoorden opnieuw doen",
+		"my_answers_to_their_questions": "Mijn antwoorden op de vragen van {{name}}",
+		"they_answered_your_questions": "{{name}} heeft jouw vragen beantwoord!",
+		"they_answered_subtitle": "{{name}} heeft jouw eigen vragen beantwoord — dit hebben ze gezegd.",
+		"create_new_story": "Maak een nieuw verhaal",
+		"custom_question": "Eigen vraag",
+		"interview_meta": {
+			"name": "Naam",
+			"age": "Leeftijd",
+			"eyeColor": "Oogkleur",
+			"hair": "Haar",
+			"animal": "Lievelingsdier",
+			"superpower": "Superkracht",
+			"food": "Lievelingseten",
+			"hobby": "Hobby",
+			"dreams": "Dromen",
+			"season": "Lievelingsseizoen",
+			"magicItem": "Magisch voorwerp",
+			"friendQuality": "Beste vriendenqualiteit",
+			"bookMovie": "Lievelingsboek/-film",
+			"funnySecret": "Grappig geheim"
+		}
+	},
+	"friendQuestionsInterview": {
+		"title": "Vragen van {{name}}",
+		"subtitle": "Beantwoord de speciale vragen van je vriend!",
+		"question_count": "{{count}} vraag/vragen te beantwoorden"
+	},
+	"storyDetails": {
+		"errors": {
+			"load_failed": "Dit verhaal kon niet worden geladen.",
+			"video_failed": "Videogeneratie mislukt. Probeer het opnieuw."
+		},
+		"story_time": "Verhaaltijd!",
+		"play_story": "Verhaal afspelen",
+		"animate_story": "Verhaal animeren",
+		"animating": "Animeren...",
+		"video_processing": "Je video wordt gemaakt...",
+		"video_generating_info": "Je video wordt gemaakt! Dit duurt ongeveer 2 minuten. Blijf op deze pagina terwijl we de magie laten werken.",
+		"new_video_ready": "Nieuwe video!"
+	},
+	"friendsTab": {
+		"generate_invite": "Uitnodiging genereren",
+		"enter_code": "Code invoeren",
+		"my_friends": "Mijn vrienden",
+		"no_friends": "Nog geen vrienden toegevoegd. Genereer een uitnodiging of voer een code in!",
+		"connected": "Verbonden",
+		"invite_title": "Nodig een vriend uit",
+		"invite_description": "Genereer een unieke code om met je vriend te delen. Als zij hem invoeren, zijn jullie verbonden!",
+		"generate_code": "Code genereren",
+		"give_code": "Geef deze code aan je vriend:",
+		"copy_code": "Code kopiëren",
+		"copied": "Gekopieerd!",
+		"enter_code_title": "Voer een code in",
+		"enter_code_description": "Plak hier de uitnodigingscode van je vriend.",
+		"connect": "Verbinden",
+		"errors": {
+			"generate_invite": "Uitnodiging genereren mislukt.",
+			"process_code": "Code verwerken mislukt. Zorg dat de code correct is."
+		}
+	}
+}

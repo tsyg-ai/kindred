@@ -1,0 +1,277 @@
+{
+	"common": {
+		"loading": "Loading...",
+		"back": "Back",
+		"cancel": "Cancel",
+		"close": "Close",
+		"creating_magic": "Creating Magic...",
+		"try_again": "Try Again",
+		"looks_great": "Looks Great! Let's Go",
+		"saving": "Saving..."
+	},
+	"welcome": {
+		"title": "Project Kindred",
+		"subtitle": "The Living Friendship Book",
+		"sign_in": "Sign in with Google",
+		"errors": {
+			"load_profile": "Failed to load profile.",
+			"sign_in": "Failed to sign in. Please try again."
+		}
+	},
+	"onboarding": {
+		"title": "Welcome to Kindred",
+		"subtitle": "A magical friendship book for your child — here's how it works",
+		"feature1": {
+			"title": "Your Child's Unique Avatar",
+			"desc": "Through a fun AI-powered interview, your child answers questions about themselves and receives a beautiful illustrated avatar that is uniquely theirs."
+		},
+		"feature2": {
+			"title": "Connect With Friends Safely",
+			"desc": "Share a simple 6-character invite code with another family. When they accept, the children are connected in their shared friendship book — always under your control."
+		},
+		"feature3": {
+			"title": "Magical Story Memories",
+			"desc": "Kids describe a fun moment they shared, and Kindred transforms it into an illustrated story with AI-generated artwork and narration — a keepsake they'll treasure."
+		},
+		"feature4": {
+			"title": "You Stay In Control",
+			"desc": "Every story your child creates requires your approval before friends can see it. A simple math puzzle ensures only parents can approve content."
+		},
+		"privacy_note": "No personal data is shared between families beyond what your child chooses to include.",
+		"cta": "Create Your Child's Profile"
+	},
+	"selectProfile": {
+		"title": "Who is playing?",
+		"subtitle": "Select your profile to continue",
+		"new_profile": "New Profile",
+		"world_style": "{{worldStyle}} Style",
+		"delete_profile_title": "Delete {{name}}?",
+		"delete_profile_confirm": "This will permanently delete this profile and all its friends and stories. This cannot be undone.",
+		"delete_profile_button": "Yes, Delete",
+		"errors": {
+			"load_profiles": "Failed to load profiles.",
+			"delete_profile": "Failed to delete profile."
+		}
+	},
+	"parentalSetup": {
+		"title": "Parental Gateway",
+		"description": "Welcome to Project Kindred. This app uses AI to create a living friendship book for your child. All generated content is designed to be child-safe.",
+		"instruction": "To get started, please provide your child's name and age.",
+		"interview_info": "A friendly AI guide will interview your child using voice chat — their answers shape a one-of-a-kind avatar and personalise the experience. Use the panel on the right to choose which questions are asked, or add your own topics.",
+		"child_name": "Child's Name",
+		"name_placeholder": "e.g., Leo",
+		"child_age": "Child's Age",
+		"age_placeholder": "e.g., 7",
+		"language": "Language",
+		"continue": "Continue to Style Selection",
+		"customize_questions": "Customize Interview Questions",
+		"customize_questions_desc": "All questions are included by default. Toggle any off to skip them, or add your own topics below.",
+		"add_custom_question": "Add a Custom Topic",
+		"add_custom_question_desc": "Type a topic (e.g. \"shoe size\", \"favorite color\") and we'll turn it into a child-friendly question. Custom topics are also shared with your child's friends — so everyone gets to answer them.",
+		"custom_question_placeholder": "e.g. favorite sport",
+		"add": "Add",
+		"errors": {
+			"fill_required": "Please fill out both the name and age.",
+			"min_one_question": "Please keep at least one question selected.",
+			"age_required_for_custom": "Please enter the child's age first.",
+			"generate_question_failed": "Could not generate question. Please try again."
+		}
+	},
+	"chooseStyle": {
+		"title": "Choose Your World",
+		"subtitle": "Hi {{name}}! Pick how you want your magical world to look!",
+		"start_interview": "Start Interview",
+		"styles": {
+			"Watercolor": "Watercolor",
+			"Paper-craft": "Paper-craft",
+			"3D Animation": "3D Animation",
+			"Toy": "3D Toy",
+			"Chalk": "Chalk",
+			"Clay": "Claymation",
+			"8-Bit": "8-Bit",
+			"Crayon": "Crayon",
+			"Cartoon": "Cartoon",
+			"Stitched": "Stitched",
+			"Neon": "Neon",
+			"Default": "Default"
+		}
+	},
+	"childInterview": {
+		"title": "Identity Creation",
+		"subtitle": "Let's create your Illustrated Self!",
+		"question_counter": "Question {{current}} of {{total}}",
+		"use_voice": "Use Voice",
+		"answer_placeholder": "Type your answer here...",
+		"generate_avatar": "Generate Avatar",
+		"next": "Next",
+		"meet_avatar": "Meet your Avatar!",
+		"errors": {
+			"answer_required": "Please answer the question before moving on!",
+			"generate_failed": "Failed to generate avatar. Please try again.",
+			"save_failed": "Failed to save profile."
+		}
+	},
+	"voiceInterview": {
+		"title": "Voice Interview",
+		"subtitle": "Talk to our magical assistant to create your avatar!",
+		"connecting": "Connecting...",
+		"waking_up": "Waking up the magic assistant!",
+		"listening": "Listening...",
+		"guide": "Answer the questions out loud. The assistant will guide you!",
+		"stop_interview": "Stop Interview",
+		"recorded_answers": "Recorded Answers:",
+		"ready_title": "Ready to start?",
+		"ready_subtitle": "Make sure your microphone is on and you're in a quiet place.",
+		"start_interview": "Start Voice Interview",
+		"type_instead": "Or type your answers instead",
+		"meet_avatar": "Meet your Avatar!",
+		"generating_subtitle": "Generating your avatar based on your answers!",
+		"errors": {
+			"microphone": "Failed to start voice interview. Please check microphone permissions.",
+			"connection": "Connection error. Please try again.",
+			"save_failed": "Failed to save profile."
+		}
+	},
+	"dashboard": {
+		"greeting": "Hi, {{name}}!",
+		"world": "{{style}} World",
+		"switch_profile": "Switch Profile",
+		"edit_profile": "Edit Profile",
+		"log_out": "Log Out",
+		"errors": {
+			"logout_failed": "Could not log out. Please try again."
+		}
+	},
+	"storyEngine": {
+		"title": "The Story Engine",
+		"choose_scene_style": "Choose scene style",
+		"choose_scene_style_subtitle": "Pick the art style for your story scene",
+		"next_write_story": "Next: Write your story",
+		"subtitle": "Tell me about a fun time you had with a friend!",
+		"friend_details": "{{name}}'s Details",
+		"interview_answers": "Interview Answers:",
+		"who_is_friend": "Who is your friend?",
+		"friend_placeholder": "e.g., Mia",
+		"what_happened": "What happened?",
+		"record_voice": "Record Voice",
+		"stop_recording": "Stop Recording",
+		"story_placeholder": "We built a giant pillow fort in the living room...",
+		"type_instead": "Type instead",
+		"use_voice": "Use voice",
+		"tap_mic": "Tap the mic and tell your story!",
+		"create_magic": "Create Magic",
+		"steps": {
+			"imagining_friend": "Imagining your friend...",
+			"drawing_scene": "Drawing the scene...",
+			"recording_narrator": "Recording the narrator...",
+			"saving": "Saving to your book..."
+		},
+		"errors": {
+			"fill_required": "Please tell me your friend's name and the story!",
+			"generic": "Something went wrong. Let's try again!",
+			"load_failed": "Could not load data. Please go back and try again."
+		}
+	},
+	"mathGate": {
+		"title": "Parental Check",
+		"review_story": "Review the Story",
+		"generated_audio": "Generated Audio",
+		"audio_failed": "Audio generation failed or was skipped.",
+		"reject_delete": "Reject & Delete",
+		"verify_adult": "Verify you are an adult",
+		"solve_math": "Solve the math problem to approve this entry.",
+		"answer_placeholder": "Answer",
+		"approve": "Approve",
+		"errors": {
+			"incorrect": "Incorrect answer. Please try again.",
+			"load_failed": "Could not load story for review.",
+			"approve_failed": "Could not approve. Please try again.",
+			"delete_failed": "Could not delete. Please try again."
+		}
+	},
+	"friendDetails": {
+		"errors": {
+			"load_failed": "Could not load friend details.",
+			"audio_failed": "Could not generate audio. Please try again.",
+			"remove_failed": "Could not remove friend. Please try again."
+		},
+		"back": "Back to Dashboard",
+		"remove_friend": "Remove Friend",
+		"remove_friend_title": "Remove {{name}}?",
+		"remove_friend_confirm": "This will permanently delete your connection and all shared stories. This cannot be undone.",
+		"remove_friend_button": "Yes, Remove",
+		"interview_answers": "Interview Answers",
+		"no_answers": "No interview answers available.",
+		"meet_friend": "Meet {{name}}!",
+		"intro_subtitle": "Listen to a fun introduction about {{name}} based on their profile.",
+		"stories_with": "Stories with {{name}}",
+		"no_stories": "No stories yet.",
+		"create_story": "Create one now!",
+		"approved": "Approved",
+		"needs_review": "Needs Review",
+		"review_with_parent": "Review with Parent",
+		"play_intro": "Play Introduction",
+		"play_custom_answers": "Play Their Answers to Your Questions",
+		"answer_their_questions": "Answer {{name}}'s Questions",
+		"redo_answers": "Redo answers",
+		"my_answers_to_their_questions": "My answers to {{name}}'s questions",
+		"they_answered_your_questions": "{{name}} answered your questions!",
+		"they_answered_subtitle": "{{name}} went through your custom questions — here's what they said.",
+		"create_new_story": "Create a new story",
+		"custom_question": "Custom Question",
+		"interview_meta": {
+			"name": "Name",
+			"age": "Age",
+			"eyeColor": "Eye Color",
+			"hair": "Hair",
+			"animal": "Favorite Animal",
+			"superpower": "Superpower",
+			"food": "Favorite Food",
+			"hobby": "Hobby",
+			"dreams": "Dreams",
+			"season": "Favorite Season",
+			"magicItem": "Magic Item",
+			"friendQuality": "Best Friend Quality",
+			"bookMovie": "Favorite Book/Movie",
+			"funnySecret": "Funny Secret"
+		}
+	},
+	"friendQuestionsInterview": {
+		"title": "{{name}}'s Questions",
+		"subtitle": "Answer your friend's special questions!",
+		"question_count": "{{count}} question(s) to answer"
+	},
+	"storyDetails": {
+		"errors": {
+			"load_failed": "Could not load this story.",
+			"video_failed": "Video generation failed. Please try again."
+		},
+		"story_time": "Story Time!",
+		"play_story": "Play Story",
+		"animate_story": "Animate Story",
+		"animating": "Animating...",
+		"video_processing": "Creating your video...",
+		"video_generating_info": "Your video is being created! This usually takes about 2 minutes. Please stay on this page while we work our magic.",
+		"new_video_ready": "New Video!"
+	},
+	"friendsTab": {
+		"generate_invite": "Generate Invite",
+		"enter_code": "Enter Code",
+		"my_friends": "My Friends",
+		"no_friends": "No friends added yet. Generate an invite or enter a code!",
+		"connected": "Connected",
+		"invite_title": "Invite a Friend",
+		"invite_description": "Generate a unique code to share with your friend. When they enter it, you'll be connected!",
+		"generate_code": "Generate Code",
+		"give_code": "Give this code to your friend:",
+		"copy_code": "Copy Code",
+		"copied": "Copied!",
+		"enter_code_title": "Enter a Code",
+		"enter_code_description": "Paste the invite code from your friend here.",
+		"connect": "Connect",
+		"errors": {
+			"generate_invite": "Failed to generate invite.",
+			"process_code": "Failed to process code. Make sure it is correct."
+		}
+	}
+}

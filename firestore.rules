@@ -1,0 +1,37 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Profiles: owner writes; any authenticated user can read (needed for friend lookups)
+    match /profiles/{profileId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth.uid == request.resource.data.userId;
+      allow update, delete: if request.auth.uid == resource.data.userId;
+    }
+
+    // Entries (stories): owner writes and updates; any authenticated user reads
+    match /entries/{entryId} {
+      allow read: if request.auth != null;
+      allow create: if request.auth.uid == request.resource.data.userId;
+      allow update, delete: if request.auth.uid == resource.data.userId;
+    }
+
+    // Friend connections: any authenticated user can read/create/update
+    // (profile-level ownership is enforced client-side and by profile rules)
+    match /friendConnections/{connId} {
+      allow read, create, update, delete: if request.auth != null;
+    }
+
+    // Invites: any authenticated user can read/create/delete (delete needed for acceptInvite)
+    // Updates are disallowed to prevent tampering
+    match /invites/{code} {
+      allow read, create, delete: if request.auth != null;
+      allow update: if false;
+    }
+
+    // User settings: owner only
+    match /userSettings/{uid} {
+      allow read, write: if request.auth.uid == uid;
+    }
+  }
+}
